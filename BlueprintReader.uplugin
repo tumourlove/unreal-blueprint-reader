@@ -5,7 +5,7 @@
     "FriendlyName": "Blueprint Reader",
     "Description": "Exposes Blueprint graph structure (nodes, pins, connections) as JSON for AI tooling via Python scripting.",
     "Category": "Editor",
-    "CreatedBy": "tumourlove",
+    "CreatedBy": "Leviathan Team",
     "CanContainContent": false,
     "IsBetaVersion": true,
     "Modules": [
