@@ -559,6 +559,7 @@ FString UBlueprintReaderLibrary::SearchNodes(
     SearchGraphs(BP->UbergraphPages, TEXT("event_graph"));
     SearchGraphs(BP->FunctionGraphs, TEXT("function"));
     SearchGraphs(BP->MacroGraphs, TEXT("macro"));
+    SearchGraphs(BP->DelegateSignatureGraphs, TEXT("delegate_signature"));
 
     Root->SetStringField(TEXT("query"), Query);
     Root->SetNumberField(TEXT("match_count"), Results.Num());
